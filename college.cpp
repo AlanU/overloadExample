@@ -11,6 +11,11 @@ college::college(const std::string & name)
     m_name = name;
 }
 
+void college::setName(const std::string & name)
+{
+   m_name = name;
+}
+
 void college::show()
 {
     std::cout<<"College Name: "<<m_name<<"\n";
